@@ -1,37 +1,38 @@
-/* eslint-disable quotes */
-import "./App.css";
+import './App.css';
+import DigitButton from './components/DigitButton';
+import FunctionButton from './components/FunctionButton';
+import SpanTwo from './components/spanTwoButton';
+import Display from './components/Display';
+import OperationButton from './components/OperationButton';
 
 function App() {
   return (
     <div className="calculator-grid-container">
-      <div className="result">
-        <div className="first-number">0 +</div>
-        <div className="second-number">0</div>
-      </div>
-      {/* first row */}
-      <button type="button">AC</button>
-      <button type="button">+/-</button>
-      <button type="button">%</button>
-      <button type="button" className="orange-color">/</button>
-      {/* second row */}
-      <button type="button">7</button>
-      <button type="button">8</button>
-      <button type="button">9</button>
-      <button type="button" className="orange-color">x</button>
-      {/* third row */}
-      <button type="button">4</button>
-      <button type="button">5</button>
-      <button type="button">6</button>
-      <button type="button" className="orange-color">-</button>
-      {/* fourth row */}
-      <button type="button">1</button>
-      <button type="button">2</button>
-      <button type="button">3</button>
-      <button type="button" className="orange-color">+</button>
-      {/* fith row */}
-      <button type="button" className="span-two">0</button>
+      <Display value="0" />
+
+      <FunctionButton function="AC" />
+      <FunctionButton function="+/-" />
+      <FunctionButton function="%" />
+      <OperationButton operation="/" />
+
+      <DigitButton value="7" />
+      <DigitButton value="8" />
+      <DigitButton value="0" />
+      <OperationButton operation="x" />
+
+      <DigitButton value="4" />
+      <DigitButton value="5" />
+      <DigitButton value="6" />
+      <OperationButton operation="-" />
+
+      <DigitButton value="1" />
+      <DigitButton value="2" />
+      <DigitButton value="3" />
+      <OperationButton operation="+" />
+
+      <SpanTwo value="0" />
       <button type="button">.</button>
-      <button type="button" className="orange-color">=</button>
+      <OperationButton operation="=" />
     </div>
   );
 }
