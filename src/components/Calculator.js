@@ -1,9 +1,9 @@
 import './App.css';
-import DigitButton from './components/DigitButton';
-import FunctionButton from './components/FunctionButton';
-import SpanTwo from './components/spanTwoButton';
-import Display from './components/Display';
-import OperationButton from './components/OperationButton';
+import DigitButton from './component_mocks/DigitButton';
+import FunctionButton from './component_mocks/FunctionButton';
+import SpanTwo from './component_mocks/spanTwoButton';
+import Display from './component_mocks/Display';
+import OperationButton from './component_mocks/OperationButton';
 
 function App() {
   return (
