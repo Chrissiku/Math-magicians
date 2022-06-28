@@ -7,8 +7,9 @@
 >
 > In order to achieve this project I used some resources and technologies listed below :
 
-<!-- ## Here are the screen shoot of the project
-
+ ## Here is the screen shoot of the project
+ ![localhost_3002 Overview 2022-06-28 23 03 00](https://user-images.githubusercontent.com/101924220/176318802-71d6d0b8-8280-40d1-8d2b-203af18bbd32.png)
+<!--
 | On Desktop                                                                                                                                                                 | On Mobile                                                                                                                                                                 |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img width="800" alt="Desktop version of the project" src="https://user-images.githubusercontent.com/101924220/175563231-f5bba37e-93a8-46ac-85c5-2208dc150520.PNG"> | <img width="320" alt="Mobile Version" src="https://user-images.githubusercontent.com/101924220/175563247-ac1dae1f-f418-45e5-abc1-360bb4d1bdb1.PNG"> | -->
