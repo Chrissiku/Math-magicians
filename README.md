@@ -1,65 +1,90 @@
-# React and Redux
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-If you are not familiar with linters and GitHub Actions, read [root level README](../README.md).
+# Project Name :  Math-Magicians Calculator
 
-## Set-up GitHub Actions
+> Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to Make simple calculations and Read a random math-related quote.
+>
+>
+> In order to achieve this project I used some resources and technologies listed below :
 
-This GitHub Action is going to run [ESLint](https://eslint.org/) and [Stylelint](https://stylelint.io/) to help you find style issues.
+<!-- ## Here are the screen shoot of the project
 
-[Stylelint](https://stylelint.io/) is a linter for your stylesheets that helps you avoid errors and enforce conventions.
+| On Desktop                                                                                                                                                                 | On Mobile                                                                                                                                                                 |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img width="800" alt="Desktop version of the project" src="https://user-images.githubusercontent.com/101924220/175563231-f5bba37e-93a8-46ac-85c5-2208dc150520.PNG"> | <img width="320" alt="Mobile Version" src="https://user-images.githubusercontent.com/101924220/175563247-ac1dae1f-f418-45e5-abc1-360bb4d1bdb1.PNG"> | -->
 
-[ESLint](https://eslint.org/) is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.
+## Built With
 
-Please do the following **steps in this order**:
+- Major languages : JavaScript , JSX and CSS
+- Frameworks : none
+- Toolchain : `Babel`
+- Library : `React.js`
+- Technologies used : Github, Git, Gitflow and Linters
 
-1. In the first commit of your feature branch create a `.github/workflows` folder and add a copy of [`.github/workflows/linters.yml`](.github/workflows/linters.yml) to that folder.
-    - **Remember** to use the file linked above
-    - **Remember** that `.github` folder starts with a dot.
-2. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-3. When you open your first pull request you should see the result of the GitHub Actions:
+## Live Demo (not avialable yet)
 
-![gh actions checks](../assets/images/gh-actions-eslint-stylelint-checks.png)
+<!-- Click [Here](https://chrissiku.github.io/capstone_project_two/dist
+) To open the live demo -->
 
-Click on the `Details` link to see the full output and the errors that need to be fixed:
+## Getting Started
 
-![gh actions failing checks](../assets/images/gh-actions-html-css-failing-checks.png)
+To get a local copy up and running follow these simple example steps.
 
-## Set-up linters in your local env
+### Prerequisites ♻️
 
-### ESLint
+- A personal computer connected to the internet;
+- Have a working and updated browser.
+- Have a local version control like git installed on your computer
+- Have an account on Github, as an online/remote Version Control System
+- Code editor (Visual studio code, sublime text, notepad++, ...) installed on your computer;
+- At least basic of HTML and CSS.
 
-1. Run 
-    ```
-    npm install --save-dev eslint@7.x eslint-config-airbnb@18.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-plugin-react-hooks@4.x @babel/eslint-parser@7.x @babel/core@7.x  @babel/plugin-syntax-jsx@7.x  @babel/preset-react@7.x @babel/preset-react@7.x
-    ```
-    *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
-2. Copy [.eslintrc.json](./.eslintrc.json) and [.babelrc](./.babelrc) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run `npx eslint .` on the root of your directory of your project.
-5. Fix linter errors.
-6. **IMPORTANT NOTE**: feel free to research [auto-correct options for Stylelint](https://stylelint.io/user-guide/cli#autofixing-errors) if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
+### Setup 🎰
 
-### Stylelint
+- Click the [me](https://github.com/Chrissiku/Math-magicians) and you'll land on the pure repository;
+- click on the green (🟢) button with `Code` Inscription;
+- You can choose to download the project or just clone it if you are familiar with Git and Github;
+- Follow normal step once download in your computer and use it as it's yours.
 
-1. Run
+### Install
 
-   ```
-   npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-   ```
+- If you are familiar with git, Run `npm install` to get all dependecies required to run the linters checks, otherwise use the downloaded project on your computer without testing files
 
-   *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
+### Run test 🧪
 
-2. Copy [.stylelintrc.json](./.stylelintrc.json) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run `npx stylelint "**/*.{css,scss}"` on the root of your directory of your project.
-5. Fix linter errors.
-6. **IMPORTANT NOTE**: feel free to research [auto-correct options for Stylelint](https://stylelint.io/user-guide/cli#autofixing-errors) if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
+> Run thes command bellow inside your `git bash` or command line interface..
 
-## Test/Deployment Actions
+- `npm build start` : to run the project in your default web Browser
+- `npx stylelint "**/*.{css,scss}"` : for the `css` codebase and use of best practices. you can add
+- `npx eslint .` : for the `JavaScript` codebase and use of best practices
+- > Note that you can add `--fix` keyword to the command for `Css` and/or `JavaScript` to make sure that you avoid all errors comming from your `code editor`
 
-Feel free to add your own deployment actions which can run your tests and deploy to Heroku.
+## Author
 
-Make sure that you do not modify the [`.github/workflows/linters.yml`](.github/workflows/linters.yml) but that you create a separe GitHub Action workflow file for that.
+👤 **Chris Siku**
+
+- GitHub: [@githubhandle](https://github.com/Chrissiku)
+- Twitter: [@twitterhandle](https://twitter.com/christian_siku)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/chris-siku-4bb53b232/)
+
+![Chris Siku's GitHub stats](https://github-readme-stats.vercel.app/api?username=Chrissiku&count_private=true&theme=dark&show_icons=true)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+- Hat tip to anyone whose code was used.
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
