@@ -5,10 +5,9 @@ import React from 'react';
 
 class DigitButton extends React.Component {
   render() {
-    // eslint-disable-next-line react/prop-types
     return (
-      <button type="button">
-        {this.props.value}
+      <button type="button" onClick={this.props.e}>
+        {this.props.name}
       </button>
     );
   }

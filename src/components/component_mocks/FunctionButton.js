@@ -7,8 +7,8 @@ class FunctionButton extends React.Component {
   render() {
     // eslint-disable-next-line react/prop-types
     return (
-      <button type="button">
-        {this.props.function}
+      <button type="button" id="clear" onClick={this.props.e}>
+        {this.props.name}
       </button>
     );
   }

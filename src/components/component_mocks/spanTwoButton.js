@@ -7,8 +7,8 @@ class SpanTwo extends React.Component {
   render() {
     // eslint-disable-next-line react/prop-types
     return (
-      <button className="span-two" type="button">
-        {this.props.value}
+      <button className="span-two" type="button" onClick={this.props.e}>
+        {this.props.name}
       </button>
     );
   }
