@@ -3,15 +3,20 @@
 /* eslint-disable react/destructuring-assignment */
 import React from 'react';
 
-class Display extends React.Component {
-  render() {
-    // eslint-disable-next-line react/prop-types
-    return (
-      <div className="result">
-        <div className="number">{this.props.value}</div>
-      </div>
-    );
-  }
-}
+const Display = (props) => {
+  const { total, next, operation } = props.value;
+  const results = `
+    ${
+  total || operation || next
+    ? `${total || ''} ${operation || ''} ${next || ''}`
+    : 0
+}`;
+  // eslint-disable-next-line react/prop-types
+  return (
+    <div className="result">
+      <div className="number">{results}</div>
+    </div>
+  );
+};
 
 export default Display;

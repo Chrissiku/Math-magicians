@@ -3,15 +3,10 @@
 /* eslint-disable react/destructuring-assignment */
 import React from 'react';
 
-class FunctionButton extends React.Component {
-  render() {
-    // eslint-disable-next-line react/prop-types
-    return (
-      <button type="button" id="clear" onClick={this.props.e}>
-        {this.props.name}
-      </button>
-    );
-  }
-}
+const FunctionButton = (props) => (
+  <button type="button" id="clear" onClick={props.e}>
+    {props.name}
+  </button>
+);
 
 export default FunctionButton;
