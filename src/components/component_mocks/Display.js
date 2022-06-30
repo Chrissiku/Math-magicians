@@ -5,10 +5,17 @@ import React from 'react';
 
 class Display extends React.Component {
   render() {
+    const { total, next, operation } = this.props.value;
+    const results = `
+    ${
+  total || operation || next
+    ? `${total || ''} ${operation || ''} ${next || ''}`
+    : 0
+}`;
     // eslint-disable-next-line react/prop-types
     return (
       <div className="result">
-        <div className="number">{this.props.value}</div>
+        <div className="number">{results}</div>
       </div>
     );
   }
