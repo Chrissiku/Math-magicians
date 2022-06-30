@@ -8,7 +8,7 @@ import Display from './component_mocks/Display';
 import OperationButton from './component_mocks/OperationButton';
 import calculate from '../logic/calculate';
 
-function App() {
+function Calculator() {
   const [data, setData] = useState({
     total: 0,
     next: null,
@@ -55,4 +55,4 @@ function App() {
   );
 }
 
-export default App;
+export default Calculator;
