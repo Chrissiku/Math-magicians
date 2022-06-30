@@ -3,15 +3,10 @@
 /* eslint-disable react/destructuring-assignment */
 import React from 'react';
 
-class OperationButton extends React.Component {
-  render() {
-    // eslint-disable-next-line react/prop-types
-    return (
-      <button className="orange-color" type="button" onClick={this.props.e}>
-        {this.props.name}
-      </button>
-    );
-  }
-}
+const OperationButton = (props) => (
+  <button className="orange-color" type="button" onClick={props.e}>
+    {props.name}
+  </button>
+);
 
 export default OperationButton;

@@ -3,14 +3,10 @@
 /* eslint-disable react/destructuring-assignment */
 import React from 'react';
 
-class DigitButton extends React.Component {
-  render() {
-    return (
-      <button type="button" onClick={this.props.e}>
-        {this.props.name}
-      </button>
-    );
-  }
-}
+const DigitButton = (props) => (
+  <button type="button" onClick={props.e}>
+    {props.name}
+  </button>
+);
 
 export default DigitButton;
