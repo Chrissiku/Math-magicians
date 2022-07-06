@@ -24,7 +24,8 @@
 - Library : `React.js`
 - Technologies used : Github, Git, Gitflow and Linters
 
-## Live Demo (not avialable yet)
+## Live Demo
+See  [the live demo](https://chriscacl.netlify.app/)
 
 <!-- Click [Here](https://chrissiku.github.io/capstone_project_two/dist
 ) To open the live demo -->
