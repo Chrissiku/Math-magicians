@@ -1,12 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
   margin: 0;
-  background: #000;
+  background: rgb(196, 191, 191);
+}
+
+/* styling header */
+header.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 50px;
+  border: 1px solid red;
+  width: 100%;
+}
+
+header.header .logo {
+  color: #000;
+  font-size: 35px;
+  font-weight: 900;
+  line-height: 40px;
+}
+
+header.header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+header.header nav ul li {
+  background: rgb(173, 167, 167);
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: all 0.4s;
+}
+
+header.header nav ul li:hover {
+  background: rgb(105, 103, 103);
+}
+
+header.header nav ul li:hover > a {
+  color: rgba(243, 134, 32, 0.925);
+}
+
+header.header nav ul li a {
+  color: #000;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 2px 50px;
+}
+
+.quote{
+ text-align: center;
+}
+
+section h1{
+  font-size: 40px;
+  color: rgb(214, 107, 7);
+}
+
+section .text{
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .calculator-grid-container {

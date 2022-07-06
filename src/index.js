@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './index.css';
-import Calculator from './components/Calculator';
 import reportWebVitals from './reportWebVitals';
+import Magicians from './components/Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Calculator />
+    <Router>
+      <Magicians />
+    </Router>
   </React.StrictMode>,
 );
 
