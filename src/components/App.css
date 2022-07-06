@@ -51,15 +51,15 @@ header.header nav ul li:hover {
   background: rgb(105, 103, 103);
 }
 
-header.header nav ul li:hover > a {
-  color: rgba(243, 134, 32, 0.925);
-}
-
 header.header nav ul li a {
   color: #000;
   font-size: 20px;
   line-height: 25px;
   font-weight: 500;
+}
+
+header.header nav ul li:hover > a {
+  color: rgba(243, 134, 32, 0.925);
 }
 
 section {
@@ -68,16 +68,16 @@ section {
   padding: 2px 50px;
 }
 
-.quote{
- text-align: center;
+.quote {
+  text-align: center;
 }
 
-section h1{
+section h1 {
   font-size: 40px;
   color: rgb(214, 107, 7);
 }
 
-section .text{
+section .text {
   font-size: 20px;
   line-height: 30px;
 }
