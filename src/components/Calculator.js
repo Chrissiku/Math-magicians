@@ -73,4 +73,6 @@ const Magicians = () => (
   </>
 );
 
+export { Calculator };
+
 export default Magicians;
