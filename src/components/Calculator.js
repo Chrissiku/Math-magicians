@@ -53,9 +53,7 @@ function Calculator() {
         <OperationButton e={eHandler} name="+" />
         {/* fith row */}
         <SpanTwo e={eHandler} name="0" />
-        <button onClick={eHandler} name=".">
-          .
-        </button>
+        <DigitButton e={eHandler} name="." />
         <OperationButton e={eHandler} name="=" />
       </div>
     </section>
@@ -72,5 +70,7 @@ const Magicians = () => (
     </Routes>
   </>
 );
+
+export { Calculator };
 
 export default Magicians;
