@@ -129,8 +129,8 @@ exports[`Testing Calculator Testing component with snapshot 1`] = `
       0
     </button>
     <button
-      name="."
       onClick={[Function]}
+      type="button"
     >
       .
     </button>
