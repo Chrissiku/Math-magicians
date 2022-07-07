@@ -1,7 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test Span two Button component 1`] = `
+exports[`Test Function Button component 1`] = `
 <button
+  id="clear"
   onClick={[MockFunction]}
   type="button"
 >
