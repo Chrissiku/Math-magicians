@@ -71,9 +71,6 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/christian_siku)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/chris-siku-4bb53b232/)
 
-![Chris Siku's GitHub stats](https://github-readme-stats.vercel.app/api?username=Chrissiku&count_private=true&theme=dark&show_icons=true)
-
-
 👤 **Ritobroto Mukherjee**
 
 - Portfolio: [@Rito](https://ritobrotomukherjee.github.io/Work-Portfolio/)
@@ -81,17 +78,11 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@RitobrotoM3](https://twitter.com/RitobrotoM3)
 - LinkedIn: [Ritobroto Mukherjee](https://www.linkedin.com/in/ritobroto-mukherjee-519148ba/)
 
-![Ritobroto's GitHub stats](https://github-readme-stats.vercel.app/api?username=RitobrotoMukherjee&count_private=true&theme=dark&show_icons=true)
-
 👤 **Kiprotich Kimutai**
 
 - GitHub: [@Kimutai01](https://github.com/Kimutai01)
 - Twitter: [@Kimutai_01](https://twitter.com/Kimutai_01?s=09)
 - LinkedIn: [@kiprotichkimutai](https://www.linkedin.com/m/in/kimutai-kiprotich-1b5045216)
-
-
-![Kimutai's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kimutai01&count_private=true&theme=dark&show_icons=true)
-
 
 
 ## 🤝 Contributing
